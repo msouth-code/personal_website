@@ -7,7 +7,7 @@ export default function Skills() {
   return (
     <div className="skills-container">
       
-        <h2>Skills</h2>
+        <h2 className="box-header">Skills</h2>
      
       
         <Stack direction="row" spacing={1} sx={{ justifyContent: "center", alignItems: "center" }}>

@@ -2,13 +2,13 @@ import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
 import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
-import "./Experiences.css";
+import "./Projects.css";
 
-export default function Experiences() {
+export default function Projects() {
   return (
     <>
-      <div className="experiences-container">
-        <h2 className="box-header">Experiences</h2>
+      <div className="projects-container">
+        <h2 className="box-header">Projects</h2>
         <Box className="experiences-cards">
           <Card sx={{ borderRadius: "25px" }}>
             <CardContent>

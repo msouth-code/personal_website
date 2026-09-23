@@ -3,6 +3,8 @@ import Menu from "./Menu";
 import About from "./About";
 import Skills from "./Skills";
 import Experiences from "./Experiences";
+import Contact from "./Contact";
+import Projects from "./Projects";
 import { useRef } from "react";
 
 function App() {
@@ -19,16 +21,24 @@ function App() {
       />
       <div className="main">
         <div className="leftHandSide">
-          <section>
-            <Experiences ref={experiencesRef} />
-          </section>
-        </div>
-        <div className="rightHandSide">
           <section className="about-container">
             <About ref={aboutRef} />
           </section>
           <section className="skills-section">
             <Skills ref={skillsRef} />
+          </section>
+          <section className="contact-section">
+            <Contact />
+          </section>
+        </div>
+        <div className="middle">
+          <section className="projects-section">
+            <Projects />
+          </section>
+        </div>
+        <div className="rightHandSide">
+          <section className="experiences-section">
+            <Experiences ref={experiencesRef} />
           </section>
         </div>
       </div>
