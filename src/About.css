@@ -1,4 +1,20 @@
 .photo {
     padding: 10px;
     align-items: center;
+    border-radius: 25px;
+    justify-content: center;
+    place-items: center;
+    flex: 1;
+    width: 100%;
+}
+
+
+
+.about-text {
+    /* display: flex; */
+    justify-content: center;
+    place-items: center;
+    text-align: center;
+    font-size: 20px;
+    width: 100%;
 }
