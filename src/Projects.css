@@ -14,6 +14,16 @@ h2 {
     /* padding: 10px; */
 }
 
+.project-info {
+    flex: 3 1 0;
+}
+
+.button-container {
+    justify-content: center;
+    align-items: center;
+
+}
+
 .experiences-cards {
     display: flex;
     flex-direction: column;

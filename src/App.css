@@ -40,7 +40,7 @@ body {
   margin-left: 5px;
   display: flex;
   position: sticky;      /* Makes the entire container sticky */
-  top: 0;
+  top: 62px;
   width: 24%;
 	flex-direction: column;
 	row-gap: 0px;

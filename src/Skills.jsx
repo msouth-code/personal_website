@@ -40,6 +40,24 @@ export default function Skills() {
         />
         <Chip
           sx={{ backgroundColor: "white", margin: "2px" }}
+          label="Postman"
+          variant="outlined"
+          className="chip"
+        />
+        <Chip
+          sx={{ backgroundColor: "white", margin: "2px" }}
+          label="Docker"
+          variant="outlined"
+          className="chip"
+        />
+        <Chip
+          sx={{ backgroundColor: "white", margin: "2px" }}
+          label="Wireshark"
+          variant="outlined"
+          className="chip"
+        />
+        <Chip
+          sx={{ backgroundColor: "white", margin: "2px" }}
           label="Interpersonal Communication"
           variant="outlined"
           className="chip"

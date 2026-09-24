@@ -27,9 +27,9 @@ function App() {
           <section className="skills-section">
             <Skills ref={skillsRef} />
           </section>
-          <section className="contact-section">
+          {/* <section className="contact-section">
             <Contact />
-          </section>
+          </section> */}
         </div>
         <div className="middle">
           <section className="projects-section">
