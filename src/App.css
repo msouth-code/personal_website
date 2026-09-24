@@ -4,6 +4,14 @@ body {
   background-position: center;
 }
 
+.main {
+  margin: 4px;
+	width: 1400px;
+	display: flex;
+	gap: 2px;
+	align-items: flex-start;
+}
+
 .rightHandSide {
   /* margin: 0 auto; */
   display: flex;
@@ -11,6 +19,7 @@ body {
 	flex-direction: column;
 	row-gap: 10px;
   padding: 10px;
+  margin-right: 5px;
 }
 
 .middle {
@@ -28,23 +37,22 @@ body {
   place-content: center;
   place-items: center;
   padding: 10px;
+  margin-left: 5px;
   display: flex;
-  /* flex: 0.5 1 0; */
+  position: sticky;      /* Makes the entire container sticky */
+  top: 0;
   width: 24%;
 	flex-direction: column;
 	row-gap: 0px;
   flex-wrap: wrap;
+
 }
 
 .skills-section,
 .contact-section, 
 .about-container,
 .projects-section,
-.experiences-section {
-  justify-content: center; 
-  align-items: center; 
-  place-content: center;
-  place-items: center;
+.experiences-section { 
   border-radius: 25px;
   width: 100%;
   box-sizing: border-box;
@@ -57,13 +65,7 @@ body {
 	box-shadow: 0 3px 10px 4px #0001;
 }
 
-.main {
-  margin: 2px;
-	/* max-width: 1500px; */
-	display: flex;
-	gap: 2px;
-	align-items: flex-start;
-}
+
 
 #center {
   display: flex;
