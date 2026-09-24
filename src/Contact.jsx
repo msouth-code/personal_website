@@ -2,10 +2,10 @@ import "./Contact.css";
 
 export default function Contact() {
   return (
-    <div>
-      <div className="contact-container">
+    <div className="contact-container">
+      <div className="contact-text">
         <h2 className="box-header">Contact</h2>
-        <h4>miayasouth2019@gmail.com</h4>
+        <div>miayasouth2019@gmail.com</div>
         <a href="https://www.linkedin.com/in/miayasouth" target="_blank">LinkedIn</a>
       </div>
     </div>
