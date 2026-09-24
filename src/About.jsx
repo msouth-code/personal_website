@@ -9,8 +9,8 @@ export default function About() {
       </div>
       
       <div className="about-text">
-        Hello! My name is Miaya South and I am currently seeking Entry Level Software Engineering opportunities. 
-        I am a 2024 graduate from Johns Hopkins University with a B.S. in Computer Science and a minor in
+        Hello! My name is Miaya South and <br></br>I am currently seeking Entry Level Software Engineering opportunities. 
+        <br></br>I am a 2023 graduate from <br></br>Johns Hopkins University with a <br></br>B.S. in Computer Science and a <br></br>minor in
         Marketing & Communications. 
       </div>
     </div>
