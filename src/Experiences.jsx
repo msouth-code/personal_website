@@ -8,7 +8,9 @@ export default function Experiences() {
   return (
     <>
       <div className="experiences-container">
-        <h2 className="box-header">Experiences</h2>
+        <Box>
+          <h2 className="box-header">Experiences</h2>
+        </Box>
         <Box className="experiences-cards">
           <Card sx={{ borderRadius: "25px" }}>
             <CardContent>
@@ -81,7 +83,10 @@ export default function Experiences() {
           </Card>
         </Box>
 
-        <h2 className="box-header">Non-Technical</h2>
+        <Box>
+          <h2 className="box-header">Non-Technical</h2>
+        </Box>
+
         <Box className="experiences-cards">
           <Card sx={{ borderRadius: "25px" }}>
             <CardContent>

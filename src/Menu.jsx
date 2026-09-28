@@ -10,7 +10,7 @@ function Menu() {
 
   return (
     <Navbar expand="lg" className="bg-body-tertiary" sticky="top" 
-    style={{backgroundColor: "#d980ff", border: "outset #ef78a6 2px", borderRadius: "45px"}}>
+    style={{backgroundColor: "#d980ff", border: "outset #ef78a6 2px", borderRadius: "45px", height: "60px"}}>
       <Container>
         <Navbar.Brand className="name-header">Miayunique South</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />

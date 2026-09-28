@@ -3,7 +3,6 @@ import Menu from "./Menu";
 import About from "./About";
 import Skills from "./Skills";
 import Experiences from "./Experiences";
-import Contact from "./Contact";
 import Projects from "./Projects";
 import { useRef } from "react";
 
