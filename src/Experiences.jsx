@@ -86,7 +86,37 @@ export default function Experiences() {
         <Box>
           <h2 className="box-header">Non-Technical</h2>
         </Box>
-
+        <Box className="experiences-cards">
+          <Card sx={{ borderRadius: "25px" }}>
+            <CardContent>
+              <Typography
+                gutterBottom
+                sx={{ color: "text.secondary", fontSize: 14 }}
+              >
+                September 2026 - Present
+              </Typography>
+              <Typography variant="h5" component="div">
+                Zen Educate
+              </Typography>
+              <Typography sx={{ color: "text.secondary", mb: 1.5 }}>
+                Middle School Paraprofessinal
+              </Typography>
+              <Typography variant="body2">
+                <ul>
+                  <li>
+                    Work 1:1 to aid and assist middle school student with mental 
+                    and physical disabilities in academic assignments and mobility around campus.
+                  </li>
+                  <li>
+                    Actively aid and support middle school teachers of every subject with their
+                    class organization, manage disruptive in-class student behaviors, and assist 
+                    all students in classroom with assignments.
+                  </li>
+                </ul>
+              </Typography>
+            </CardContent>
+          </Card>
+        </Box>
         <Box className="experiences-cards">
           <Card sx={{ borderRadius: "25px" }}>
             <CardContent>
